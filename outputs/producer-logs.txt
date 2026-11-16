@@ -1,0 +1,50 @@
+producer-1  | %4|1794844884.176|METADATAUPDATE|python-order-event-producer#producer-1| [thrd:main]: Partition orders(0SV2MbXwQRupLII4tCZ3QQ)[1]: new leader-1 not found in cache
+producer-1  | %4|1794844884.491|METADATAUPDATE|python-order-event-producer#producer-1| [thrd:main]: Partition orders(0SV2MbXwQRupLII4tCZ3QQ)[1]: new leader-1 not found in cache
+producer-1  | %4|1794844885.132|METADATAUPDATE|python-order-event-producer#producer-1| [thrd:main]: Partition orders(0SV2MbXwQRupLII4tCZ3QQ)[0]: new leader-1 not found in cache
+producer-1  | %4|1794844885.236|METADATAUPDATE|python-order-event-producer#producer-1| [thrd:main]: Partition orders(0SV2MbXwQRupLII4tCZ3QQ)[0]: new leader-1 not found in cache
+producer-1  | %4|1794844885.321|METADATAUPDATE|python-order-event-producer#producer-1| [thrd:main]: Partition orders(0SV2MbXwQRupLII4tCZ3QQ)[0]: new leader-1 not found in cache
+producer-1  | %4|1794844885.419|METADATAUPDATE|python-order-event-producer#producer-1| [thrd:main]: Partition orders(0SV2MbXwQRupLII4tCZ3QQ)[0]: new leader-1 not found in cache
+producer-1  | %4|1794844885.508|METADATAUPDATE|python-order-event-producer#producer-1| [thrd:main]: Partition orders(0SV2MbXwQRupLII4tCZ3QQ)[0]: new leader-1 not found in cache
+producer-1  | %4|1794844885.617|METADATAUPDATE|python-order-event-producer#producer-1| [thrd:main]: Partition orders(0SV2MbXwQRupLII4tCZ3QQ)[0]: new leader-1 not found in cache
+producer-1  | %4|1794844885.727|METADATAUPDATE|python-order-event-producer#producer-1| [thrd:main]: Partition orders(0SV2MbXwQRupLII4tCZ3QQ)[0]: new leader-1 not found in cache
+producer-1  | %4|1794844885.727|METADATAUPDATE|python-order-event-producer#producer-1| [thrd:main]: Partition orders(0SV2MbXwQRupLII4tCZ3QQ)[0]: new leader-1 not found in cache
+producer-1  | %4|1794844885.830|METADATAUPDATE|python-order-event-producer#producer-1| [thrd:main]: Partition orders(0SV2MbXwQRupLII4tCZ3QQ)[0]: new leader-1 not found in cache
+producer-1  | 2026-11-16 16:01:55,652 INFO producer Produced 1100 events
+producer-1  | 2026-11-16 16:02:45,892 INFO producer Produced 1200 events
+producer-1  | 2026-11-16 16:03:40,244 INFO producer Produced 1300 events
+producer-1  | 2026-11-16 16:04:30,343 INFO producer Produced 1400 events
+producer-1  | 2026-11-16 16:05:25,463 INFO producer Produced 1500 events
+producer-1  | 2026-11-16 16:06:15,554 INFO producer Produced 1600 events
+producer-1  | %4|1794845194.428|METADATAUPDATE|python-order-event-producer#producer-1| [thrd:main]: Partition orders(0SV2MbXwQRupLII4tCZ3QQ)[2]: new leader-1 not found in cache
+producer-1  | %4|1794845198.950|METADATAUPDATE|python-order-event-producer#producer-1| [thrd:main]: Partition orders(0SV2MbXwQRupLII4tCZ3QQ)[0]: new leader-1 not found in cache
+producer-1  | %4|1794845198.951|METADATAUPDATE|python-order-event-producer#producer-1| [thrd:main]: Partition orders(0SV2MbXwQRupLII4tCZ3QQ)[1]: new leader-1 not found in cache
+producer-1  | %4|1794845198.953|METADATAUPDATE|python-order-event-producer#producer-1| [thrd:main]: Partition orders(0SV2MbXwQRupLII4tCZ3QQ)[2]: new leader-1 not found in cache
+producer-1  | %4|1794845198.955|METADATAUPDATE|python-order-event-producer#producer-1| [thrd:main]: Partition orders(0SV2MbXwQRupLII4tCZ3QQ)[2]: new leader-1 not found in cache
+producer-1  | %4|1794845198.956|METADATAUPDATE|python-order-event-producer#producer-1| [thrd:main]: Partition orders(0SV2MbXwQRupLII4tCZ3QQ)[0]: new leader-1 not found in cache
+producer-1  | %4|1794845199.047|METADATAUPDATE|python-order-event-producer#producer-1| [thrd:main]: Partition orders(0SV2MbXwQRupLII4tCZ3QQ)[1]: new leader-1 not found in cache
+producer-1  | %4|1794845199.057|METADATAUPDATE|python-order-event-producer#producer-1| [thrd:main]: Partition orders(0SV2MbXwQRupLII4tCZ3QQ)[0]: new leader-1 not found in cache
+producer-1  | %4|1794845199.077|METADATAUPDATE|python-order-event-producer#producer-1| [thrd:main]: Partition orders(0SV2MbXwQRupLII4tCZ3QQ)[2]: new leader-1 not found in cache
+producer-1  | %4|1794845199.090|METADATAUPDATE|python-order-event-producer#producer-1| [thrd:main]: Partition orders(0SV2MbXwQRupLII4tCZ3QQ)[2]: new leader-1 not found in cache
+producer-1  | %4|1794845199.218|METADATAUPDATE|python-order-event-producer#producer-1| [thrd:main]: Partition orders(0SV2MbXwQRupLII4tCZ3QQ)[0]: new leader-1 not found in cache
+producer-1  | %4|1794845199.226|METADATAUPDATE|python-order-event-producer#producer-1| [thrd:main]: Partition orders(0SV2MbXwQRupLII4tCZ3QQ)[0]: new leader-1 not found in cache
+producer-1  | %4|1794845199.233|METADATAUPDATE|python-order-event-producer#producer-1| [thrd:main]: Partition orders(0SV2MbXwQRupLII4tCZ3QQ)[2]: new leader-1 not found in cache
+producer-1  | %4|1794845199.237|METADATAUPDATE|python-order-event-producer#producer-1| [thrd:main]: Partition orders(0SV2MbXwQRupLII4tCZ3QQ)[2]: new leader-1 not found in cache
+producer-1  | %4|1794845199.320|METADATAUPDATE|python-order-event-producer#producer-1| [thrd:main]: Partition orders(0SV2MbXwQRupLII4tCZ3QQ)[0]: new leader-1 not found in cache
+producer-1  | %4|1794845199.331|METADATAUPDATE|python-order-event-producer#producer-1| [thrd:main]: Partition orders(0SV2MbXwQRupLII4tCZ3QQ)[2]: new leader-1 not found in cache
+producer-1  | %4|1794845199.343|METADATAUPDATE|python-order-event-producer#producer-1| [thrd:main]: Partition orders(0SV2MbXwQRupLII4tCZ3QQ)[2]: new leader-1 not found in cache
+producer-1  | %4|1794845199.408|METADATAUPDATE|python-order-event-producer#producer-1| [thrd:main]: Partition orders(0SV2MbXwQRupLII4tCZ3QQ)[0]: new leader-1 not found in cache
+producer-1  | %4|1794845199.411|METADATAUPDATE|python-order-event-producer#producer-1| [thrd:main]: Partition orders(0SV2MbXwQRupLII4tCZ3QQ)[0]: new leader-1 not found in cache
+producer-1  | %4|1794845199.414|METADATAUPDATE|python-order-event-producer#producer-1| [thrd:main]: Partition orders(0SV2MbXwQRupLII4tCZ3QQ)[0]: new leader-1 not found in cache
+producer-1  | %4|1794845199.422|METADATAUPDATE|python-order-event-producer#producer-1| [thrd:main]: Partition orders(0SV2MbXwQRupLII4tCZ3QQ)[2]: new leader-1 not found in cache
+producer-1  | %4|1794845199.516|METADATAUPDATE|python-order-event-producer#producer-1| [thrd:main]: Partition orders(0SV2MbXwQRupLII4tCZ3QQ)[2]: new leader-1 not found in cache
+producer-1  | %4|1794845199.517|METADATAUPDATE|python-order-event-producer#producer-1| [thrd:main]: Partition orders(0SV2MbXwQRupLII4tCZ3QQ)[2]: new leader-1 not found in cache
+producer-1  | %4|1794845199.528|METADATAUPDATE|python-order-event-producer#producer-1| [thrd:main]: Partition orders(0SV2MbXwQRupLII4tCZ3QQ)[0]: new leader-1 not found in cache
+producer-1  | %4|1794845199.529|METADATAUPDATE|python-order-event-producer#producer-1| [thrd:main]: Partition orders(0SV2MbXwQRupLII4tCZ3QQ)[0]: new leader-1 not found in cache
+producer-1  | %4|1794845199.646|METADATAUPDATE|python-order-event-producer#producer-1| [thrd:main]: Partition orders(0SV2MbXwQRupLII4tCZ3QQ)[0]: new leader-1 not found in cache
+producer-1  | %4|1794845199.771|METADATAUPDATE|python-order-event-producer#producer-1| [thrd:main]: Partition orders(0SV2MbXwQRupLII4tCZ3QQ)[0]: new leader-1 not found in cache
+producer-1  | %4|1794845199.774|METADATAUPDATE|python-order-event-producer#producer-1| [thrd:main]: Partition orders(0SV2MbXwQRupLII4tCZ3QQ)[0]: new leader-1 not found in cache
+producer-1  | %4|1794845199.777|METADATAUPDATE|python-order-event-producer#producer-1| [thrd:main]: Partition orders(0SV2MbXwQRupLII4tCZ3QQ)[0]: new leader-1 not found in cache
+producer-1  | %4|1794845199.864|METADATAUPDATE|python-order-event-producer#producer-1| [thrd:main]: Partition orders(0SV2MbXwQRupLII4tCZ3QQ)[0]: new leader-1 not found in cache
+producer-1  | 2026-11-16 16:07:17,405 INFO producer Produced 1700 events
+producer-1  | 2026-11-16 16:08:17,062 INFO producer Produced 1800 events
+producer-1  | 2026-11-16 16:09:07,160 INFO producer Produced 1900 events

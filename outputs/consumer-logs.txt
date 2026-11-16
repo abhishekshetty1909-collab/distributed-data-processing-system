@@ -1,0 +1,21 @@
+consumer-1  | 2026-11-16 15:52:11,765 INFO consumer Subscribed to orders
+consumer-1  | 2026-11-16 15:53:03,205 INFO consumer Persisted 100 new events
+consumer-1  | 2026-11-16 15:53:56,026 INFO consumer Persisted 200 new events
+consumer-1  | 2026-11-16 15:54:52,693 INFO consumer Persisted 300 new events
+consumer-1  | 2026-11-16 15:55:44,780 INFO consumer Persisted 400 new events
+consumer-1  | 2026-11-16 15:56:37,323 INFO consumer Persisted 500 new events
+consumer-1  | 2026-11-16 15:57:27,419 INFO consumer Persisted 600 new events
+consumer-1  | 2026-11-16 15:58:17,547 INFO consumer Persisted 700 new events
+consumer-1  | 2026-11-16 15:59:10,567 INFO consumer Persisted 800 new events
+consumer-1  | 2026-11-16 16:00:01,638 INFO consumer Persisted 900 new events
+consumer-1  | 2026-11-16 16:00:51,891 INFO consumer Persisted 1000 new events
+consumer-1  | 2026-11-16 16:01:55,673 INFO consumer Persisted 1100 new events
+consumer-1  | 2026-11-16 16:02:45,919 INFO consumer Persisted 1200 new events
+consumer-1  | 2026-11-16 16:03:40,264 INFO consumer Persisted 1300 new events
+consumer-1  | 2026-11-16 16:04:30,360 INFO consumer Persisted 1400 new events
+consumer-1  | 2026-11-16 16:05:25,493 INFO consumer Persisted 1500 new events
+consumer-1  | 2026-11-16 16:06:15,564 INFO consumer Persisted 1600 new events
+consumer-1  | 2026-11-16 16:07:17,500 INFO consumer Persisted 1700 new events
+consumer-1  | 2026-11-16 16:08:17,081 INFO consumer Persisted 1800 new events
+consumer-1  | 2026-11-16 16:09:07,188 INFO consumer Persisted 1900 new events
+consumer-1  | 2026-11-16 16:20:31,428 INFO consumer Subscribed to orders

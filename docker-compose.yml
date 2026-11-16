@@ -1,0 +1,93 @@
+
+services:
+  kafka:
+    image: confluentinc/cp-kafka:7.8.0
+    container_name: pipeline-kafka
+    ports:
+      - "9094:9094"
+    environment:
+      CLUSTER_ID: MkU3OEVBNTcwNTJENDM2Qk
+      KAFKA_NODE_ID: 0
+      KAFKA_PROCESS_ROLES: broker,controller
+      KAFKA_CONTROLLER_QUORUM_VOTERS: 0@kafka:9093
+      KAFKA_LISTENERS: PLAINTEXT://0.0.0.0:9092,CONTROLLER://0.0.0.0:9093,EXTERNAL://0.0.0.0:9094
+      KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://kafka:9092,EXTERNAL://localhost:9094
+      KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: CONTROLLER:PLAINTEXT,PLAINTEXT:PLAINTEXT,EXTERNAL:PLAINTEXT
+      KAFKA_CONTROLLER_LISTENER_NAMES: CONTROLLER
+      KAFKA_INTER_BROKER_LISTENER_NAME: PLAINTEXT
+      KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
+      KAFKA_TRANSACTION_STATE_LOG_REPLICATION_FACTOR: 1
+      KAFKA_TRANSACTION_STATE_LOG_MIN_ISR: 1
+      KAFKA_GROUP_INITIAL_REBALANCE_DELAY_MS: 0
+      KAFKA_LOG_DIRS: /var/lib/kafka/data
+    volumes:
+      - kafka_data:/var/lib/kafka/data
+    healthcheck:
+      test: ["CMD-SHELL", "kafka-topics --bootstrap-server localhost:9092 --list >/dev/null 2>&1"]
+      interval: 10s
+      timeout: 10s
+      retries: 15
+
+  postgres:
+    image: postgres:16
+    container_name: pipeline-postgres
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-ecommerce}
+      POSTGRES_USER: ${POSTGRES_USER:-pipeline}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-pipeline_dev_password}
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./sql/001_schema.sql:/docker-entrypoint-initdb.d/001_schema.sql:ro
+      - ./sql/002_analytics.sql:/docker-entrypoint-initdb.d/002_analytics.sql:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-pipeline} -d ${POSTGRES_DB:-ecommerce}"]
+      interval: 5s
+      timeout: 5s
+      retries: 15
+
+  topic-init:
+    image: confluentinc/cp-kafka:7.8.0
+    depends_on:
+      kafka:
+        condition: service_healthy
+    entrypoint: ["kafka-topics"]
+    command:
+      - "--bootstrap-server"
+      - "kafka:9092"
+      - "--create"
+      - "--if-not-exists"
+      - "--topic"
+      - "orders"
+      - "--partitions"
+      - "3"
+      - "--replication-factor"
+      - "1"
+    restart: "no"
+
+  consumer:
+    build: .
+    command: ["python", "-m", "app.consumer"]
+    env_file:
+      - .env
+    depends_on:
+      topic-init:
+        condition: service_completed_successfully
+      postgres:
+        condition: service_healthy
+    restart: unless-stopped
+
+  producer:
+    build: .
+    command: ["python", "-m", "app.producer"]
+    env_file:
+      - .env
+    depends_on:
+      topic-init:
+        condition: service_completed_successfully
+    restart: unless-stopped
+
+volumes:
+  kafka_data:
+  postgres_data:

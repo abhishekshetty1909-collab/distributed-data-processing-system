@@ -1,0 +1,16 @@
+============================= test session starts =============================
+platform win32 -- Python 3.13.9, pytest-8.3.3, pluggy-1.7.0 -- C:\Users\NEW\distributed-data-processing-system\.venv\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\NEW\distributed-data-processing-system
+collecting ... collected 8 items
+
+tests/test_config.py::test_default_topic_and_group PASSED                [ 12%]
+tests/test_events.py::test_valid_event_passes PASSED                     [ 25%]
+tests/test_events.py::test_invalid_values_fail[quantity-0] PASSED        [ 37%]
+tests/test_events.py::test_invalid_values_fail[quantity--1] PASSED       [ 50%]
+tests/test_events.py::test_invalid_values_fail[unit_price--2] PASSED     [ 62%]
+tests/test_events.py::test_invalid_values_fail[currency-IN] PASSED       [ 75%]
+tests/test_events.py::test_missing_field_fails PASSED                    [ 87%]
+tests/test_events.py::test_invalid_uuid_fails PASSED                     [100%]
+
+============================== 8 passed in 0.38s ==============================

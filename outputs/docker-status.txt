@@ -1,0 +1,6 @@
+NAME                                              IMAGE                                                                     COMMAND                  SERVICE      CREATED          STATUS                        PORTS
+distributed-data-processing-system-consumer-1     sha256:124f09be85cea68acd4d29c1d8f3e5831c9b0949e1386c0040c16e3ce4a66ea1   "python -m app.consu…"   consumer     50 minutes ago   Up 12 minutes                 
+distributed-data-processing-system-producer-1     sha256:1f3889bb53ae1d0abf4b1124458a2196f2e657a8729ac6dc48361bac49dba395   "python -m app.produ…"   producer     50 minutes ago   Exited (137) 23 minutes ago   
+distributed-data-processing-system-topic-init-1   confluentinc/cp-kafka:7.8.0                                               "kafka-topics --boot…"   topic-init   41 minutes ago   Exited (0) 37 minutes ago     
+pipeline-kafka                                    confluentinc/cp-kafka:7.8.0                                               "/etc/confluent/dock…"   kafka        50 minutes ago   Up 50 minutes (healthy)       0.0.0.0:9094->9094/tcp, [::]:9094->9094/tcp
+pipeline-postgres                                 postgres:16                                                               "docker-entrypoint.s…"   postgres     50 minutes ago   Up 50 minutes (healthy)       0.0.0.0:5432->5432/tcp, [::]:5432->5432/tcp
