@@ -1,0 +1,20 @@
+consumer-1  | 2026-11-20T09:27:08.410199086Z 2026-11-20 09:27:08,409 INFO consumer Subscribed to orders
+consumer-1  | 2026-11-20T09:27:57.637933474Z 2026-11-20 09:27:57,182 INFO consumer Persisted 100 new events
+consumer-1  | 2026-11-20T09:28:52.327783215Z 2026-11-20 09:28:52,248 INFO consumer Persisted 200 new events
+consumer-1  | 2026-11-20T09:29:48.009179706Z 2026-11-20 09:29:47,992 INFO consumer Persisted 300 new events
+consumer-1  | 2026-11-20T09:30:43.624485274Z 2026-11-20 09:30:43,618 INFO consumer Persisted 400 new events
+consumer-1  | 2026-11-20T09:31:34.922323717Z 2026-11-20 09:31:34,909 INFO consumer Persisted 500 new events
+consumer-1  | 2026-11-20T09:32:25.149445421Z 2026-11-20 09:32:25,145 INFO consumer Persisted 600 new events
+consumer-1  | 2026-11-20T09:33:15.237033500Z 2026-11-20 09:33:15,234 INFO consumer Persisted 700 new events
+consumer-1  | 2026-11-20T09:34:05.321857477Z 2026-11-20 09:34:05,316 INFO consumer Persisted 800 new events
+consumer-1  | 2026-11-20T09:34:55.403667358Z 2026-11-20 09:34:55,402 INFO consumer Persisted 900 new events
+consumer-1  | 2026-11-20T09:35:56.668173383Z 2026-11-20 09:35:56,656 INFO consumer Persisted 1000 new events
+consumer-1  | 2026-11-20T09:36:46.859050540Z 2026-11-20 09:36:46,853 INFO consumer Persisted 1100 new events
+consumer-1  | 2026-11-20T09:37:41.510747492Z 2026-11-20 09:37:41,505 INFO consumer Persisted 1200 new events
+consumer-1  | 2026-11-20T09:57:39.655752323Z %4|1795168659.157|SESSTMOUT|rdkafka#consumer-1| [thrd:main]: Consumer group session timed out (in join-state steady) after 45185 ms without a successful response from the group coordinator (broker 0, last error was Broker: Not coordinator): revoking assignment and rejoining group
+consumer-1  | 2026-11-20T09:58:05.548701254Z %5|1795168684.478|REQTMOUT|rdkafka#consumer-1| [thrd:kafka:9092/bootstrap]: kafka:9092/0: Timed out MetadataRequest in flight (after 60635ms, timeout #0)
+consumer-1  | 2026-11-20T09:58:05.548776554Z %5|1795168684.478|REQTMOUT|rdkafka#consumer-1| [thrd:kafka:9092/bootstrap]: kafka:9092/0: Timed out MetadataRequest in flight (after 60473ms, timeout #1)
+consumer-1  | 2026-11-20T09:58:05.548785454Z %5|1795168684.478|REQTMOUT|rdkafka#consumer-1| [thrd:kafka:9092/bootstrap]: kafka:9092/0: Timed out MetadataRequest in flight (after 60469ms, timeout #2)
+consumer-1  | 2026-11-20T09:58:05.548791154Z %5|1795168684.478|REQTMOUT|rdkafka#consumer-1| [thrd:kafka:9092/bootstrap]: kafka:9092/0: Timed out OffsetForLeaderEpochRequest in flight (after 60346ms, timeout #3)
+consumer-1  | 2026-11-20T09:58:05.548799154Z %4|1795168685.426|REQTMOUT|rdkafka#consumer-1| [thrd:kafka:9092/bootstrap]: kafka:9092/0: Timed out 4 in-flight, 0 retry-queued, 0 out-queue, 0 partially-sent requests
+consumer-1  | 2026-11-20T09:58:05.612128557Z %3|1795168685.593|FAIL|rdkafka#consumer-1| [thrd:kafka:9092/bootstrap]: kafka:9092/0: 4 request(s) timed out: disconnect (average rtt 2010.780ms) (after 1857103ms in state UP)

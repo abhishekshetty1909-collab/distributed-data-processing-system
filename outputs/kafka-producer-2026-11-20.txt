@@ -1,0 +1,13 @@
+producer-1  | 2026-11-20T09:27:07.332797026Z 2026-11-20 09:27:07,326 INFO producer Publishing to orders at approximately 2.00 events/sec
+producer-1  | 2026-11-20T09:27:57.660777175Z 2026-11-20 09:27:57,116 INFO producer Produced 100 events
+producer-1  | 2026-11-20T09:28:52.363809916Z 2026-11-20 09:28:52,252 INFO producer Produced 200 events
+producer-1  | 2026-11-20T09:29:48.010847406Z 2026-11-20 09:29:47,958 INFO producer Produced 300 events
+producer-1  | 2026-11-20T09:30:43.607601275Z 2026-11-20 09:30:43,600 INFO producer Produced 400 events
+producer-1  | 2026-11-20T09:31:34.917931516Z 2026-11-20 09:31:34,893 INFO producer Produced 500 events
+producer-1  | 2026-11-20T09:32:25.127378620Z 2026-11-20 09:32:25,112 INFO producer Produced 600 events
+producer-1  | 2026-11-20T09:33:15.214649905Z 2026-11-20 09:33:15,211 INFO producer Produced 700 events
+producer-1  | 2026-11-20T09:34:05.305141877Z 2026-11-20 09:34:05,296 INFO producer Produced 800 events
+producer-1  | 2026-11-20T09:34:55.387220058Z 2026-11-20 09:34:55,386 INFO producer Produced 900 events
+producer-1  | 2026-11-20T09:35:56.659454183Z 2026-11-20 09:35:56,630 INFO producer Produced 1000 events
+producer-1  | 2026-11-20T09:36:46.847573240Z 2026-11-20 09:36:46,837 INFO producer Produced 1100 events
+producer-1  | 2026-11-20T09:37:41.499302092Z 2026-11-20 09:37:41,489 INFO producer Produced 1200 events
