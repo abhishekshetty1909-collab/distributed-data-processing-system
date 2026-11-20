@@ -10,12 +10,13 @@ from app.logging_config import configure_logging
 
 configure_logging()
 logger = logging.getLogger("producer")
+PRODUCER_RUN_ID = uuid4().hex[:8].upper()
 
 def make_order_event(sequence):
     return {
         "event_id": str(uuid4()), "event_type": "order_created",
         "event_time": datetime.now(timezone.utc).isoformat(),
-        "order_id": f"ORD-{sequence:08d}",
+        "order_id": f"ORD-{PRODUCER_RUN_ID}-{sequence:08d}",
         "customer_id": f"CUS-{random.randint(1, 500):05d}",
         "product_id": f"PRD-{random.randint(1, 40):04d}",
         "quantity": random.randint(1, 5),
